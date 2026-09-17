@@ -1,2 +1,2 @@
 # SIT_Canteen
-Webpage for SIT Canteen's menu
+Webpage for SIT Canteen's menu created by Aryan
