@@ -1,0 +1,146 @@
+/* General Page Styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    color: #333;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 85%;
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Main Heading */
+
+h1 {
+    text-align: center;
+    color: #e65100;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+
+/* Category Sections */
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #d84315;
+    background-color: #fff3e0;
+
+    padding: 12px 15px;
+    border-radius: 10px;
+
+    border-left: 6px solid #ff6f00;
+}
+
+
+/* Food List */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Food Items */
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fffaf5;
+
+    margin: 12px 0;
+    padding: 15px 18px;
+
+    border-radius: 10px;
+    border: 1px solid #ffe0c2;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Hover Effect */
+
+li:hover {
+    background-color: #ffe0b2;
+
+    transform: translateX(8px);
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Price */
+
+strong {
+    color: #e65100;
+    font-size: 17px;
+}
+
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 85%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    li {
+        font-size: 16px;
+        padding: 13px;
+    }
+
+}
